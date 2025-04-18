@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ecoEngin</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans antialiased text-gray-800">
+  <!-- Header -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <div class="text-sm text-gray-600">
+        <a href="mailto:drken.fidelis@gmail.com" class="hover:underline">drken.fidelis@gmail.com</a>
+      </div>
+      <nav>
+        <ul class="flex space-x-6 text-gray-800">
+          <li><a href="#home" class="hover:text-green-600">Home</a></li>
+          <li><a href="#about" class="hover:text-green-600">About</a></li>
+          <li><a href="#services" class="hover:text-green-600">Services</a></li>
+          <li><a href="#how-it-works" class="hover:text-green-600">How It Works</a></li>
+          <li><a href="#contact" class="hover:text-green-600">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="bg-green-100 py-20 text-center">
+    <h1 class="text-4xl font-bold mb-4">Revolutionizing solar energy</h1>
+    <p class="text-xl mb-6">Maximize your solar performance</p>
+    <a href="#services" class="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700">View services</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 container mx-auto px-4">
+    <div class="grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-3xl font-bold mb-4">Revolutionizing solar management</h2>
+        <p class="mb-4">ecoEngin is at the forefront of solar technology, developing an innovative Solar Digital Twin platform that transforms the way solar energy systems are monitored and optimized. By crafting virtual replicas of physical installations, we provide groundbreaking solutions for performance optimization, predictive maintenance, and carbon credit verification. Our advanced technology combines physics-based modeling and machine learning to enhance energy production by 15-20% on average.</p>
+        <p class="mb-4">Located in Newmarket, GB, we aim to set the standard for solar system management across all installation types.</p>
+        <a href="#contact" class="text-green-600 hover:underline">Get in touch</a>
+      </div>
+      <div>
+        <img src="path/to/your-solar-image.jpg" alt="Solar energy technology" class="rounded-lg shadow-md">
+      </div>
+    </div>
+  </section>
+
+  <!-- Services / Features Section -->
+  <section id="services" class="bg-gray-50 py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Our Services</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-2xl shadow-lg p-6">
+          <h3 class="text-xl font-semibold mb-2">Performance optimization</h3>
+          <p class="mb-4">Maximize your solar energy output with our advanced optimization technology.</p>
+          <a href="#" class="text-green-600 hover:underline">Learn more</a>
+        </div>
+        <div class="bg-white rounded-2xl shadow-lg p-6">
+          <h3 class="text-xl font-semibold mb-2">Predictive maintenance</h3>
+          <p class="mb-4">Stay ahead of maintenance needs with our predictive capabilities.</p>
+          <a href="#" class="text-green-600 hover:underline">Learn more</a>
+        </div>
+        <div class="bg-white rounded-2xl shadow-lg p-6">
+          <h3 class="text-xl font-semibold mb-2">Carbon credit verification</h3>
+          <p class="mb-4">Easily verify your carbon credits and enhance sustainability efforts.</p>
+          <a href="#" class="text-green-600 hover:underline">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 container mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-6">Get in touch</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <!-- Contact Form -->
+      <form class="grid grid-cols-1 gap-6">
+        <div>
+          <label class="block text-sm font-medium mb-1">Name *</label>
+          <input type="text" required class="w-full border border-gray-300 rounded-lg p-2">
+        </div>
+        <div>
+          <label class="block text-sm font-medium mb-1">Email address *</label>
+          <input type="email" required class="w-full border border-gray-300 rounded-lg p-2">
+        </div>
+        <div>
+          <label class="block text-sm font-medium mb-1">Phone number *</label>
+          <input type="tel" required class="w-full border border-gray-300 rounded-lg p-2">
+        </div>
+        <div>
+          <label class="block text-sm font-medium mb-1">Message</label>
+          <textarea rows="4" class="w-full border border-gray-300 rounded-lg p-2"></textarea>
+        </div>
+        <div class="flex items-center">
+          <input type="checkbox" id="consent" class="mr-2" required>
+          <label for="consent" class="text-sm">I allow this website to store my submission so they can respond to my inquiry. *</label>
+        </div>
+        <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700">Submit</button>
+      </form>
+      <!-- Contact Details -->
+      <div>
+        <p class="mb-2"><strong>Email:</strong> <a href="mailto:drken.fidelis@gmail.com" class="text-green-600 hover:underline">drken.fidelis@gmail.com</a></p>
+        <p class="mb-4"><strong>Location:</strong> Newmarket, GB</p>
+        <h3 class="font-semibold mb-2">Hours</h3>
+        <ul class="space-y-1">
+          <li>Monday: 9:00am – 10:00pm</li>
+          <li>Tuesday: 9:00am – 10:00pm</li>
+          <li>Wednesday: 9:00am – 10:00pm</li>
+          <li>Thursday: 9:00am – 10:00pm</li>
+          <li>Friday: 9:00am – 10:00pm</li>
+          <li>Saturday: 9:00am – 6:00pm</li>
+          <li>Sunday: 9:00am – 12:00pm</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t py-6">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <div class="space-x-4">
+        <a href="#" class="text-gray-600 hover:text-green-600">Schedule appointment</a>
+        <a href="#" class="text-gray-600 hover:text-green-600">Complete intake</a>
+      </div>
+      <div class="text-sm text-gray-400">
+        Web design by <a href="https://www.b12.io" class="hover:underline">B12</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

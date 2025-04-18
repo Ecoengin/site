@@ -1,0 +1,6 @@
+/* Place any custom overrides or additional styles here */
+
+/* Example: Center the hero text on smaller screens */
+#home {
+    text-align: center;
+  }
